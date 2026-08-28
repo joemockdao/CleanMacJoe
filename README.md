@@ -89,6 +89,13 @@ Select what to remove, review the list, and clean with one click.
 * **Uninstaller**: Browse all installed apps and uninstall them completely. CleanMacJoe finds and removes associated support files, preferences, and caches that a simple drag-to-Trash misses.
 * **Real-Time Trash Monitor**: Watches the Trash in the background. Dragging an app to the Trash prompts an automatic search for associated leftover folders, allowing you to clean them with one tap.
 
+### 🔋 Mac Health & Battery Diagnostics
+Monitor your MacBook's real-time battery status, health, and system hardware:
+* **Battery Health & Cycles**: View actual maximum capacity in mAh vs original factory design, precise cycle count tracking, cell temperature in °C, and charger wattage.
+* **Storage & SSD S.M.A.R.T. Health**: Internal drive model verification, S.M.A.R.T. health status, and APFS partition visual breakdown (Used, Purgeable, and Free space).
+* **System Specs & Thermal**: Processor architecture details (Apple Silicon / Intel performance & efficiency cores), unified memory, system uptime, and thermal pressure state.
+* **Battery Longevity Best Practices**: Built-in guide with practical tips (20-80% charge rule, thermal care, optimized charging).
+
 ### 🐏 RAM Reclaimer & System Monitor
 Monitor your Mac's memory and CPU in real time. See active, inactive, wired, and compressed RAM. View the top resource hogs and terminate them directly, or reclaim inactive memory with a single click.
 
@@ -111,13 +118,19 @@ View and remove login items and launch agents that start automatically and slow 
 * **Full Disk Access**: Required so the app can scan caches and app leftovers. macOS will prompt you to grant this on first launch (*System Settings → Privacy & Security → Full Disk Access*).
 
 ### Installation
-1. Download `CleanMacJoe_2.2.dmg` from the [Latest Releases](https://github.com/joemockdao/CleanMacJoe/releases/latest).
+1. Download `CleanMacJoe_2.3.dmg` from the [Latest Releases](https://github.com/joemockdao/CleanMacJoe/releases/latest).
 2. Open the DMG file and drag **CleanMacJoe** into your **Applications** folder.
 3. Launch the app and grant Full Disk Access when prompted.
 
 ---
 
 ## 🔄 Version History
+
+### 2.3
+* **Mac Health & Battery Diagnostics** — Real-time battery diagnostics with circular progress gauge, actual maximum battery capacity vs original factory design in mAh, accurate cycle count tracking, cell temperature in °C, live charger wattage & adapter info, and smart battery care tips.
+* **Storage & SSD S.M.A.R.T. Health** — Internal drive inspection (Apple SSD model and media type), S.M.A.R.T. status verification, and APFS partition visual breakdown (Used, Purgeable, and Free space).
+* **Hardware & Thermal Pressure Monitoring** — Live Mac specs inspection with Apple Silicon / Intel architecture details, core breakdown (Performance vs Efficiency cores), unified memory, system uptime, and thermal pressure diagnostics.
+* **Desktop Mac Power Fallback** — Automatic recognition and clean display for desktop Macs (Mac mini, Mac Studio, iMac, Mac Pro) with continuous AC power.
 
 ### 2.2
 * **More Reliable Duplicate Finder** — Fixed an issue where scanning large Photos/Movies/Music libraries for duplicates could make the app unresponsive. Cancel and navigation now stay responsive throughout the whole scan, even on very large libraries.
