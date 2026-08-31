@@ -118,13 +118,16 @@ View and remove login items and launch agents that start automatically and slow 
 * **Full Disk Access**: Required so the app can scan caches and app leftovers. macOS will prompt you to grant this on first launch (*System Settings → Privacy & Security → Full Disk Access*).
 
 ### Installation
-1. Download `CleanMacJoe_2.3.dmg` from the [Latest Releases](https://github.com/joemockdao/CleanMacJoe/releases/latest).
+1. Download `CleanMacJoe_2.3.1.dmg` from the [Latest Releases](https://github.com/joemockdao/CleanMacJoe/releases/latest).
 2. Open the DMG file and drag **CleanMacJoe** into your **Applications** folder.
 3. Launch the app and grant Full Disk Access when prompted.
 
 ---
 
 ## 🔄 Version History
+
+### 2.3.1
+* **Support Screen Update** — Added a link to Klipzen, a new macOS video editing app, in the "Other Apps by the Developer" section.
 
 ### 2.3
 * **Mac Health & Battery Diagnostics** — Real-time battery diagnostics with circular progress gauge, actual maximum battery capacity vs original factory design in mAh, accurate cycle count tracking, cell temperature in °C, live charger wattage & adapter info, and smart battery care tips.
@@ -191,6 +194,7 @@ Your feedback directly shapes CleanMacJoe. If you find a bug, have a feature ide
 Check out my other projects on the App Store and beyond:
 * 🛌 [SleepRec](https://apps.apple.com/it/app/sleeprec/id1528754113) — Advanced sleep analysis and rest tracker.
 * 📝 [JoeNote](https://apps.apple.com/it/app/joenote/id6738133424) — Sleek notes and reminders organizer.
+* 🎬 [Klipzen](https://github.com/joemockdao/Klipzen) — macOS video editing app.
 * 🔗 [Linktree](https://linktr.ee/joemockdevmobile) — All my projects in one place.
 
 ---
