@@ -36,6 +36,8 @@
 
 CleanMacJoe helps you reclaim disk space and keep your Mac tidy. It scans for junk files, finds duplicates, locates large files, removes apps along with all their leftover data, and gives you a clear picture of your storage — all in a clean, native macOS interface.
 
+**New in 2.4:** ask your AI agent (Claude Desktop, Claude Code, Codex, OpenCode, Antigravity) to analyze and clean your Mac through CleanMacJoe — nothing is removed until you approve it in the app.
+
 ![CleanMacJoe Dashboard](screenshots/dashboard.png)
 
 > [!NOTE]
@@ -67,6 +69,15 @@ Because CleanMacJoe is a utility that performs system cleanups and requires **Fu
 ---
 
 ## 🚀 Key Features
+
+### 🤖 AI Agents (MCP) — new in 2.4
+Let the AI agent you already use work with CleanMacJoe: ask *"Free up 20 GB without touching my projects"*, *"Why is my Mac slow today?"* or *"Which big apps haven't I opened in months?"* and the agent uses CleanMacJoe's scanners to answer.
+
+* **Off by default**: turn it on in **AI Agents** in the sidebar and follow the 3-step setup. Claude Desktop is set up with one click; for Claude Code, Codex, OpenCode and Antigravity the app gives you a ready-to-paste command.
+* **Agents propose, you decide**: agents can read scans, explain what a file is and whether it is safe to remove, and *propose* a cleanup or an uninstall. Nothing is moved to the Trash until you confirm it in CleanMacJoe (**Move to Trash**), and an approved cleanup can be undone.
+* **Always in view**: a banner shows on every screen while an agent works, with a **Stop** button. The activity log lists which agent ran what, when and for how long.
+* **Local only**: the server listens only on this Mac (`127.0.0.1`), never on the network. Every request needs a secret token kept in your Keychain, and requests from web pages are refused.
+* **Privacy**: what the agent reads (sizes, app names, file and folder names) is sent to the agent's AI provider, as with anything you share with it. Your personal folders' contents are listed only when you ask the agent to find a file.
 
 ### 💻 Dashboard
 A live overview of your disk: total space, used space, and a storage ring that shows at a glance how full your drive is. Quick Actions let you start a clean or manage apps in one tap.
@@ -118,13 +129,22 @@ View and remove login items and launch agents that start automatically and slow 
 * **Full Disk Access**: Required so the app can scan caches and app leftovers. macOS will prompt you to grant this on first launch (*System Settings → Privacy & Security → Full Disk Access*).
 
 ### Installation
-1. Download `CleanMacJoe_2.3.1.dmg` from the [Latest Releases](https://github.com/joemockdao/CleanMacJoe/releases/latest).
+1. Download `CleanMacJoe_2.4.dmg` from the [Latest Releases](https://github.com/joemockdao/CleanMacJoe/releases/latest).
 2. Open the DMG file and drag **CleanMacJoe** into your **Applications** folder.
-3. Launch the app and grant Full Disk Access when prompted.
+3. Launch the app **from the Applications folder** and grant Full Disk Access when prompted. (AI agent setup and Open at Login need the app in Applications: opened straight from the DMG, macOS runs a temporary copy.)
+
+### Updating
+CleanMacJoe checks for new versions at launch and in **Settings › Version**. After an update, it shows what's new.
 
 ---
 
 ## 🔄 Version History
+
+### 2.4
+* **AI Agents (MCP)** — Use CleanMacJoe from Claude Desktop, Claude Code, Codex, OpenCode or Antigravity. 23 tools cover storage, junk and developer caches, stale projects, apps and leftovers, startup items, performance, hardware health and history. Agents only *propose* cleanups and uninstalls: you approve each one in the app, and it can be undone.
+* **One-click Claude Desktop setup** — CleanMacJoe adds itself to Claude Desktop and opens in the background when the agent needs it. Optional **Open at Login** keeps it available.
+* **Agent activity log** — See which agent ran what, when, for how long, and whether it worked. Stop all agents at any time from any screen.
+* **Version & updates in Settings** — Installed version and build, a **Check for Updates** button, and a **What's New** sheet after each update.
 
 ### 2.3.1
 * **Support Screen Update** — Added a link to Klipzen, a new macOS video editing app, in the "Other Apps by the Developer" section.
