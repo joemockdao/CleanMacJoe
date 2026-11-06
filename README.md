@@ -219,6 +219,27 @@ Check out my other projects on the App Store and beyond:
 
 ---
 
+## 🧩 Other apps by Joe
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/joemockdao/ScreenShotJoe"><img src="https://raw.githubusercontent.com/joemockdao/ScreenShotJoe/main/icon.png" width="64" height="64" alt="ScreenShotJoe"><br><b>ScreenShotJoe</b></a><br>
+      <sub>App Store &amp; Google Play screenshot maker for Mac</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/joemockdao/Klipzen"><img src="https://raw.githubusercontent.com/joemockdao/Klipzen/main/screenshots/icon.png" width="64" height="64" alt="Klipzen"><br><b>Klipzen</b></a><br>
+      <sub>Native video editor for Mac</sub>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://apps.apple.com/app/sleeprec/id1528754113"><img src="https://raw.githubusercontent.com/joemockdao/ScreenShotJoe/main/screenshots/sleeprec-icon.png" width="64" height="64" alt="SleepRec"><br><b>SleepRec</b></a><br>
+      <sub>Record and understand your sleep sounds — free for iPhone</sub>
+    </td>
+  </tr>
+</table>
+
+---
+
 ## 📄 License
 
 CleanMacJoe is free to download and use, for personal and commercial purposes.
