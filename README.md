@@ -221,4 +221,10 @@ Check out my other projects on the App Store and beyond:
 
 ## 📄 License
 
-Free to use. This repository hosts precompiled releases only. Source code is not public.
+CleanMacJoe is free to download and use, for personal and commercial purposes.
+
+You may not redistribute, sell or modify the app, or reverse engineer it. The source code is private; this repository hosts precompiled releases only.
+
+CleanMacJoe is provided "as is", without warranty of any kind. Always review what you are about to remove: the author is not liable for any data loss or other damage arising from its use.
+
+© 2026 Giovanni Trenta
